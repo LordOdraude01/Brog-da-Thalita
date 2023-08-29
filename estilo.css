@@ -1,0 +1,69 @@
+body{
+    background: #b9bbfe;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    border: 2px solid rgb(80, 74, 74);
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+}
+
+main{
+    width: 75%;
+    height: 75%;
+}
+
+footer{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.h2-header{
+    text-align: center;
+}
+
+.h3-nav{
+    text-align: center;
+}
+
+.div-F{
+    text-align: end;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+}
+
+.a-f{
+    border: 2px solid rgb(80, 74, 74);
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 770px)  {
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    main{
+        width: 100%;
+    }
+}
